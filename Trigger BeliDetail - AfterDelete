@@ -1,0 +1,3 @@
+UPDATE barangRomyOz 
+SET JumlahBarangRomyOz = JumlahBarangRomyOz - OLD.KuantitasBeliRomyOz 
+WHERE Barang_IdRomyOz = OLD.Barang_Id_FKRomyOz
